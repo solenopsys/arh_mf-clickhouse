@@ -104,7 +104,7 @@ module.exports = {
     }),
     iconPlug(
       'packages/fui/icons/src',
-      'dist/modules/alexstorm/clickhouse',
+      'dist/modules/richteri/clickhouse',
       'packages/modules/clickhouse/src/assets/menu.json'
     ),
     sharedMappings.getPlugin(),
