@@ -92,7 +92,7 @@ module.exports = {
           requiredVersion: '7.5.5',
           includeSecondaries: true,
         },
-        '@solenopsys/lib-hyperstreams': {
+        '@solenopsys/fl-hyperstreams': {
           singleton: true,
              import : "packages/data/hstream/src/index",
         },

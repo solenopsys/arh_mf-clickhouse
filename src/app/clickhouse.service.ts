@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {map, Observable, tap} from "rxjs";
-import {HStreamService} from "@solenopsys/lib-hyperstreams";
+import {HStreamService} from "@solenopsys/fl-hyperstreams";
 
 const decode=(val)=> JSON.parse( new TextDecoder().decode(val))
 

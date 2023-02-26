@@ -1,4 +1,4 @@
-import {DataPageConfig, FieldType} from "@solenopsys/lib-dgraph";
+import {DataPageConfig, FieldType} from "@solenopsys/fl-dgraph";
 import {ClickhouseDataProvider} from "./clickhouse-data-provider.service";
 
 export const CH_TABLES: DataPageConfig = {
