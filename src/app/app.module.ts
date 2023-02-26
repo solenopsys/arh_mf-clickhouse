@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import {RouterModule, Routes} from '@angular/router';
-import {TABLE_PAGE} from "@solenopsys/uimatrix-templates";
+import {TABLE_PAGE} from "@solenopsys/ui-templates";
 import {FormsModule} from "@angular/forms";
 import {TABLES} from "./tables.config";
 
