@@ -14,7 +14,7 @@ const routes: Routes = [
 
 export const PROVIDERS_CONF = [
   {provide: 'tables', useValue: TABLES},
-  {provide: 'assets_dir', useValue: "/fm/modules/richteri/postgres"},
+  {provide: 'assets_dir', useValue: "/fm/modules/mf-richteri/postgres"},
   {provide: 'mod_name', useValue: "git"}
 ]
 

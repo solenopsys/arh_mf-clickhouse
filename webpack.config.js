@@ -48,7 +48,7 @@ module.exports = {
       name: 'clickhouse',
       filename: 'remoteEntry.js',
       exposes: {
-        './Module': 'packages/modules/clickhouse/src/app/entry.module.ts',
+        './Module': 'packages/modules/mf-clickhouse/src/app/entry.module.ts',
       },
       shared: share({
         '@angular/core': {
@@ -104,8 +104,8 @@ module.exports = {
     }),
     iconPlug(
       'packages/fui/icons/src',
-      'dist/modules/richteri/clickhouse',
-      'packages/modules/clickhouse/src/assets/menu.json'
+      'dist/modules/mf-richteri/clickhouse',
+      'packages/modules/mf-clickhouse/src/assets/menu.json'
     ),
     sharedMappings.getPlugin(),
   ],

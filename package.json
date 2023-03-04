@@ -1,5 +1,5 @@
 {
-  "name": "@solenopsys/sc-fm-clickhouse-invicta",
+  "name": "@solenopsys/mf-clickhouse",
   "version": "0.9.1",
   "scripts": {
     "test": "node index.js",

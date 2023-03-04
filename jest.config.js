@@ -8,7 +8,7 @@ module.exports = {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../coverage/modules/clickhouse',
+  coverageDirectory: '../../coverage/modules/mf-clickhouse',
   transform: {
     '^.+.(ts|mjs|js|html)$': 'jest-preset-angular',
   },
