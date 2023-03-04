@@ -9,7 +9,7 @@
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/clickhouse-invicta",
+        "outputPath": "dist/modules/clickhouse-invicta",
         "index": "packages/modules/clickhouse-invicta/src/index.html",
         "main": "packages/modules/clickhouse-invicta/src/main.ts",
         "polyfills": "packages/modules/clickhouse-invicta/src/polyfills.ts",
