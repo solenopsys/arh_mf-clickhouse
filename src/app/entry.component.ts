@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'hyperconverged-clickhouse-entry',
+  selector: 'sc-clickhouse-entry',
   template: `<div class="remote-entry">
     <h2>clickhouse's Remote Entry Component</h2>
   </div>`,
