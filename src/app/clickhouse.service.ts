@@ -12,6 +12,6 @@ export class ClickhouseService {
   constructor(private hs: HStreamService) { }
 
   list(query:string): Observable<any> {
-    return this.hs.createStringQuery("richteri-hsm-clickhouse", query, 1).pipe(map(decode)).pipe(map(input=>input.data)).pipe(tap(k=>console.log("PIPE DATA",k)))
+    return this.hs.createStringQuery("hsm-clickhouse", query, 1).pipe(map(decode)).pipe(map(input=>input.data)).pipe(tap(k=>console.log("PIPE DATA",k)))
   }
 }
